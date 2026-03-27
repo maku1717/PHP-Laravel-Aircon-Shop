@@ -1,0 +1,171 @@
+Essential PHP/Laravel Files for Code Flow:
+
+Entry Point:
+- public/index.php
+
+Bootstrap:
+- bootstrap/app.php
+- bootstrap/providers.php
+
+Routes:
+- routes/web.php
+- routes/console.php
+
+Controllers:
+- app/Http/Controllers/Controller.php
+- app/Http/Controllers/ProductController.php
+- app/Http/Controllers/ProfileController.php
+- app/Http/Controllers/UserController.php
+- app/Http/Controllers/Auth/AuthenticatedSessionController.php
+- app/Http/Controllers/Auth/ConfirmablePasswordController.php
+- app/Http/Controllers/Auth/EmailVerificationNotificationController.php
+- app/Http/Controllers/Auth/EmailVerificationPromptController.php
+- app/Http/Controllers/Auth/NewPasswordController.php
+- app/Http/Controllers/Auth/PasswordController.php
+- app/Http/Controllers/Auth/PasswordResetLinkController.php
+- app/Http/Controllers/Auth/RegisteredUserController.php
+- app/Http/Controllers/Auth/VerifyEmailController.php
+
+Requests:
+- app/Http/Requests/ProfileUpdateRequest.php
+- app/Http/Requests/Auth/LoginRequest.php
+
+Models:
+- app/Models/Cart.php
+- app/Models/Product.php
+- app/Models/User.php
+
+Views:
+- resources/views/welcome.blade.php
+- resources/views/dashboard.blade.php
+- resources/views/auth/login.blade.php
+- resources/views/auth/register.blade.php
+- resources/views/components/application-logo.blade.php
+- resources/views/components/auth-session-status.blade.php
+- resources/views/components/danger-button.blade.php
+- resources/views/components/dropdown-link.blade.php
+- resources/views/components/dropdown.blade.php
+- resources/views/components/input-error.blade.php
+- resources/views/components/input-label.blade.php
+- resources/views/components/modal.blade.php
+- resources/views/components/nav-link.blade.php
+- resources/views/components/primary-button.blade.php
+- resources/views/components/responsive-nav-link.blade.php
+- resources/views/components/secondary-button.blade.php
+- resources/views/components/text-input.blade.php
+- resources/views/layouts/footer.blade.php
+- resources/views/layouts/navbar.blade.php
+- resources/views/pages/addToCart.blade.php
+- resources/views/pages/banner.blade.php
+- resources/views/pages/products.blade.php
+- resources/views/pages/viewProduct.blade.php
+- resources/views/profile/edit.blade.php
+- resources/views/profile/partials/delete-user-form.blade.php
+- resources/views/profile/partials/update-password-form.blade.php
+- resources/views/profile/partials/update-profile-information-form.blade.php
+
+Components:
+- app/View/Components/AppLayout.php
+- app/View/Components/GuestLayout.php
+
+Configuration:
+- config/app.php
+- config/auth.php
+- config/cache.php
+- config/database.php
+- config/filesystems.php
+- config/logging.php
+- config/mail.php
+- config/queue.php
+- config/services.php
+- config/session.php
+
+Migrations:
+- database/migrations/0001_01_01_000000_create_users_table.php
+- database/migrations/0001_01_01_000001_create_cache_table.php
+- database/migrations/0001_01_01_000002_create_jobs_table.php
+- database/migrations/2026_02_19_172741_add_number_to_users_table.php
+- database/migrations/2026_03_17_230557_create_products_table.php
+- database/migrations/2026_03_21_213652_create_carts_table.php
+
+Seeders:
+- database/seeders/DatabaseSeeder.php
+
+Factories:
+- database/factories/UserFactory.php
+
+Providers:
+- app/Providers/AppServiceProvider.php
+
+Dependencies:
+- composer.json
+- composer.lock
+- package.json
+- package-lock.json
+
+Environment:
+- .env.example
+
+Artisan (CLI):
+- artisan
+
+Tests:
+- tests/Pest.php
+- tests/TestCase.php
+- tests/Feature/ExampleTest.php
+- tests/Unit/ExampleTest.php
+
+Public Assets:
+- public/.htaccess
+- public/favicon.ico
+- public/robots.txt
+- public/images/brands/500x192_snpl.jpg
+- public/images/brands/1005x390_ab_homepage.jpg
+- public/images/brands/ads1.jpg
+- public/images/brands/Carrier.png
+- public/images/brands/Condura.png
+- public/images/brands/coolsummer_1005x390.jpg
+- public/images/brands/haier.jpg
+- public/images/brands/Haier.png
+- public/images/brands/haierbrandweek_107x107_logo.jpg
+- public/images/brands/Kolin.png
+- public/images/brands/LG-sb.png
+- public/images/brands/Midea.png
+- public/images/brands/Panasonic.png
+- public/images/brands/Samsung-sb.png
+- public/images/brands/saver1.jpg
+- public/images/brands/saver2.jpg
+- public/images/brands/saver2.webp
+- public/images/brands/saver3.jpg
+- public/images/brands/sleep_happier-feb2026-1005x390.jpg
+- public/images/brands/tcl.png
+
+Resources:
+- resources/css/app.css
+- resources/js/app.js
+- resources/js/bootstrap.js
+
+Storage:
+- storage/app/.gitignore
+- storage/framework/.gitignore
+- storage/framework/cache/.gitignore
+- storage/framework/sessions/.gitignore
+- storage/framework/testing/.gitignore
+- storage/framework/views/.gitignore
+- storage/logs/.gitignore
+
+Other:
+- .editorconfig
+- .gitattributes
+- .gitignore
+- phpunit.xml
+- README.md
+- vite.config.js
+
+
+
+This is notes dont remove it:
+
+"Hello im new in creating app in laravel/php so i create this attached text file this file "php_essential_files.txt"
+is the folder name and  inside it the routes and folder, name of the files that currently in use my projects please
+update again this file only so i can track the folder/files currently in use in my aircon shop app"
